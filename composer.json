@@ -1,0 +1,20 @@
+{
+  "name": "safrashenkov/wowhead-helper",
+  "description": "Helper class for wowhead",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Denis Safrashenkov",
+      "email": "safrashenkov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["WowHeadHelper.php"]
+  },
+  "require": {
+    "php": ">=5.5",
+    "sunra/php-simple-html-dom-parser": "^1.5"
+  }
+}
